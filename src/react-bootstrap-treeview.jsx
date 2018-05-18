@@ -61,7 +61,7 @@ var TreeView = React.createClass({
   },
 
   render: function() {
-
+    let data = this.props.data;
     this.setNodeId({ nodes: data });
 
     var children = [];
